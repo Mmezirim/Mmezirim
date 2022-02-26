@@ -1,0 +1,52 @@
+fieldset{
+  background-color: rgb(54, 49, 98);
+  display: flex;100%;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width:80% ;
+  height: 30%;
+  margin-top: 20rem;
+  margin-left: 15rem;
+  
+}
+
+div{ 
+  font-weight: bolder; 
+  text-align: left;
+  font-size: 42px;
+  border-left: 20%;
+  color: aliceblue;
+  padding-left: 3rem;
+  padding-right: 5rem;
+  font-style:normal;
+  flex
+
+}
+span {color: rgb(155, 102, 204);}
+
+img {text-align: right;
+  border-right: 0rem;
+  width:100%;
+  justify-content: ;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  margin: 0em;
+  height: 30%;
+
+}
+.index {
+  text-align: left;
+  border-left: 10%;
+  justify-content: space-between;
+  display: flex;
+  font-size: 32px;
+
+}
+body {background-color: rgb(26, 26, 42);}
+
+.a {font-size: 20px;
+  font-style: italic;
+  color: aliceblue;
+
+}
+
