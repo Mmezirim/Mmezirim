@@ -1,0 +1,93 @@
+*,  *::before, *::after {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, rgba(3, 25, 78, 0.8), #12EDDD);
+}
+
+/*label{
+     background-color: #111;
+     display: flex;
+     position: relative;
+     border-radius: 50px;
+     height: 26px;
+     width: 50px;
+     align-items: center;
+     padding: 5px;
+     justify-content: space-between;
+}
+.checkbox{opacity: 10;}
+.ball{
+    background-color:white;
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+
+
+}
+.fa-moon {color: #f1c40f}
+.fa-sun {color: #f1c40f}*/
+
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.calculator-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white ;
+    outline: none;
+    background-color: rgba(185, 147, 147, 0.75);
+
+}
+
+.calculator-grid > button:hover {
+    background-color: rgba(181, 168, 168, 0.9);
+}
+
+.plus-two {
+    grid-column: span 2;
+    color: rgba(255, 0, 0, 0.9);
+    font-size: xx-large
+
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, .75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+ padding: 12px;
+ word-wrap: break-word;
+ word-break: break-all;
+}
+
+.output .previous-screen {
+    color:  rgba(255, 255, 255, .75) ;
+    font-size: 1.5rem;
+}
+
+.output .current-screen {
+    color:  rgba(255, 255, 255, .75) ;
+    font-size: 3rem;
+}
+@media only screen and (max-width:400px){
+    text-align: :corner-present;
+    
+    
+}
