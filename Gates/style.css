@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(192, 206, 216);
+}
+.flex{
+    display: flexbox;
+    background-color: aliceblue;
+    /*justify-content: center;*/
+    text-align: center;
+    margin: auto;
+    border-radius: 2rem;
+    margin-top: 25rem;
+    width: 25%;
+    height: 40%;
+}
